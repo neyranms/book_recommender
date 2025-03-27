@@ -1,0 +1,16 @@
+# Arquivos sensíveis
+.env
+*.env
+
+# Cache e compilação
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+.venv/
+
+# Notebooks temporários
+.ipynb_checkpoints/
+
+# Arquivos do PyCharm
+.idea/
