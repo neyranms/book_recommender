@@ -52,6 +52,6 @@ To generate the vector database, a .env file must be created in the project root
 🛢️ Dataset Source
 The dataset used in this project is available on Kaggle. Instructions for downloading and preparing the data are provided in the original course repository.
 
-This project was adapted by Neyran for educational and technical purposes.
+This project was adapted for educational and technical purposes.
 The changes aim to improve portability, stability, and cross-platform compatibility of the original codebase.
 
