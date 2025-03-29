@@ -27,6 +27,7 @@ __pycache__/
 *.parquet
 *.xlsx
 *.json
+tagged_description.txt
 
 # Imagens auxiliares
 cover-not-found.jpg
