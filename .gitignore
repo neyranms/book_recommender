@@ -1,16 +1,41 @@
-# Arquivos sensíveis
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Arquivos de ambiente
 .env
 *.env
 
-# Cache e compilação
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb~  # versões temporárias
+
+# Arquivos de cache e compilados
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.so
 
-# Ambientes virtuais
-.venv/
-
-# Notebooks temporários
-.ipynb_checkpoints/
-
-# Arquivos do PyCharm
+# Configurações locais de IDEs
+.vscode/
 .idea/
+
+# Dados gerados ou exportados
+*.csv
+*.parquet
+*.xlsx
+*.json
+
+# Imagens auxiliares
+cover-not-found.jpg
+
+# Logs ou saídas temporárias
+*.log
+*.tmp
+*.bak
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
